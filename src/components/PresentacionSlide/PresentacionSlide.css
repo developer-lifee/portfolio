@@ -1,7 +1,7 @@
 .first-slide{
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+
 }
 .first-slide .words{
     margin: 0;
@@ -9,10 +9,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-.first-slide .letter{
-    font-size: 25rem;
-}
+
 #guion{
+    margin: 0 auto;
     margin-top: 14vh;
     height: 2rem;
     width: 7rem;
@@ -20,4 +19,44 @@
 }
 .first-slide .letter:hover{
     color: #999;
+}
+
+@media(max-width: 600px) {
+    .first-slide .letter{
+        font-size: 10rem;
+    }
+    #guion{
+        margin-top: 5rem;
+        height: 2rem;
+        width: 7rem;
+        background-color: #777;
+    }
+}
+@media(min-width: 601px) and (max-width: 800px) {
+    .first-slide .letter{
+        font-size: 13rem;
+    }
+    #guion{
+        margin-top: 7.5rem;
+        height: 2rem;
+        width: 7rem;
+        background-color: #777;
+    }
+}
+@media(min-width: 800px) {
+    .first-slide .letter{
+        font-size: 16rem;
+    }
+    #guion{
+        margin: 0;
+        margin-top: 8rem;
+        height: 2rem;
+        width: 20vw;
+        background-color: #777;
+    }
+}
+@media(min-width: 1025px){
+    .first-slide{
+        justify-content: center;
+    }
 }

@@ -13,9 +13,12 @@
 .list span{
     color: #ccc;
 }
+.list li{
+    margin: 0 2rem;
+}
 
 .contactButton{
-    height: 4rem;
+    height: 3.5rem;
     width: 8rem;
     background-color:#00000000;
     color: #777;

@@ -10,7 +10,7 @@ function Header() {
             <span>Gerson <br/>Lopez</span>
             </li>
             <li>
-            <p>Available for <br/>freelance work <br/>from august 2023</p>
+            <p>Available for freelance  <br/>work from august 2023</p>
             </li>
             <li>
             <button className='contactButton'>Contact</button>
