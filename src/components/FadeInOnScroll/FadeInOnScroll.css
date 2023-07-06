@@ -1,0 +1,8 @@
+.Sfade-in {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+  
+.Svisible {
+    opacity: 1;
+}

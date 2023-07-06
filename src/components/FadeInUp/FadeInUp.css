@@ -1,10 +1,10 @@
-.Dfade-in {
+.Ufade-in {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(50px);
     transition: opacity 0.8s ease-in-out, transform 0.5s ease-in-out;
 }
   
-.Dfade-in.Dvisible {
+.Ufade-in.Uvisible {
     opacity: 1;
     transform: translateY(0);
 }

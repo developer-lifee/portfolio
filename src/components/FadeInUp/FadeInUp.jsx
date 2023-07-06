@@ -1,7 +1,7 @@
 import React, { Children, useEffect, useState } from 'react';
-import './FadeInDown.css';
+import './FadeInUp.css';
 
-function FadeInDown (props){
+function FadeInUp (props){
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setTimeout(() => {
@@ -13,10 +13,10 @@ function FadeInDown (props){
   }, []);
 
   return (
-    <div className={`Dfade-in ${isVisible ? 'Dvisible' : ''}`}>
+    <div className={`Ufade-in ${isVisible ? 'Uvisible' : ''}`}>
       {props.children}
     </div>
   );
 };
 
-export {FadeInDown};
+export {FadeInUp};

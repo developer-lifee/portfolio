@@ -1,9 +1,11 @@
 import React from 'react'
+import {FadeInDown} from "../FadeInDown/FadeInDown.jsx"
 import "../Header/Header.css"
 
 function Header() {
 
   return (
+    <FadeInDown>
     <div className='header'>
         <ul className='list'>
             <li>
@@ -17,6 +19,7 @@ function Header() {
             </li>
         </ul>
     </div>
+    </FadeInDown>
   )
 }
 
