@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list span{
+    color: #ccc;
+}
+
+.contactButton{
+    height: 4rem;
+    width: 8rem;
+    background-color:#00000000;
+    color: #777;
+    border: 2px solid #777;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.contactButton:hover{
+    cursor: pointer;
+    background-color: #005954;
+    color: #111;
+    border-color: #005954;
+}

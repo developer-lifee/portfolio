@@ -1,0 +1,23 @@
+.first-slide{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.first-slide .words{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-slide .letter{
+    font-size: 25rem;
+}
+#guion{
+    margin-top: 14vh;
+    height: 2rem;
+    width: 7rem;
+    background-color: #777;
+}
+.first-slide .letter:hover{
+    color: #999;
+}
