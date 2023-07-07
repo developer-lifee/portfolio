@@ -41,7 +41,7 @@ function PresentacionSlide() {
         </span>
         </FadeInUp>
     </div>
-    <FadeInUp time={1600}>
+    <FadeInUp time={1800}>
     <div className="arrow">
         <span></span>
         <span></span>

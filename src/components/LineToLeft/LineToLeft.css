@@ -1,0 +1,15 @@
+.lineL {
+    position:absolute;
+    align-self: center;
+    right: 0;
+    margin: 2rem 1rem;
+    border-radius: 10px;
+    width: 0;
+    height: 0.2rem;
+    background-color: #777;
+    transition: 2s;
+  }
+  
+  .line--animateL {
+    width: calc(100vw - 2rem);
+  }

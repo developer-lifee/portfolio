@@ -1,0 +1,12 @@
+.line {
+    margin: 2rem 0rem;
+    border-radius: 10px;
+    width: 0;
+    height: 0.2rem;
+    background-color: #777;
+    transition: 2s;
+  }
+  
+  .line--animate {
+    width: 100%;
+  }

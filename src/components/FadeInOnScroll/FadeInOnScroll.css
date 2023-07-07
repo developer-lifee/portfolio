@@ -1,8 +1,10 @@
 .Sfade-in {
     opacity: 0;
-    transition: opacity 0.5s;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-in-out, transform 0.5s ease-in-out;
 }
   
 .Svisible {
     opacity: 1;
+    transform: translateY(0);
 }

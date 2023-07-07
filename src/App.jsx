@@ -5,6 +5,9 @@ import { PresentacionSlide } from './components/PresentacionSlide/PresentationSl
 import { FadeInDown } from './components/FadeInDown/FadeInDown.jsx'
 import { FadeInOnScroll } from './components/FadeInOnScroll/FadeInOnScroll.jsx'
 import { FadeInUp } from './components/FadeInUp/FadeInUp.jsx'
+import { AboutMeSlide } from './components/AboutMeSlide/AboutMeSlide.jsx'
+import { LineToRight } from './components/LineToRight/LineToRight.jsx'
+import { LineToLeft } from './components/LineToLeft/LineToLeft.jsx'
 
 function App() {
 
@@ -14,9 +17,10 @@ function App() {
       <div className='main-container'>
         <Header/>
         <PresentacionSlide/>
-
-
-
+        <LineToRight/>
+        <AboutMeSlide/>
+        <LineToLeft/>
+        <AboutMeSlide/>
       </div>
     </>
   )

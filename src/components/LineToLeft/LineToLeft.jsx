@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef, Children  } from 'react';
 import ReactDOM from 'react-dom';
-import "./FadeInOnScroll.css"
+import "./LineToLeft.css"
 
-function FadeInOnScroll({children}) {
+function LineToLeft() {
     const [isVisible, setIsVisible] = useState(false);
   
     useEffect(() => {
@@ -30,9 +30,9 @@ function FadeInOnScroll({children}) {
     const ref = useRef(null);
   
     return (
-      <div ref={ref} className={`Sfade-in ${isVisible ? 'Svisible' : ''}`}>
-        {children}
+      <div ref={ref} className={`lineL ${isVisible ? 'line--animateL' : ''}`}>
+        {/* Contenido de la línea */}
       </div>
     );
   }
-  export {FadeInOnScroll}
+  export {LineToLeft}

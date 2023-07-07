@@ -1,0 +1,24 @@
+.aboutMeSlide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+}
+
+.aboutMeSlide .bio{
+    font-size: 2rem;
+    width: 25rem;
+}
+
+
+.aboutMeSlide .retrato img{
+    margin-bottom: 3rem;
+    width: 25rem;
+}
