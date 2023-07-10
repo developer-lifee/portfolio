@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef, Children  } from 'react';
 import ReactDOM from 'react-dom';
-import "./LineToRight.css"
+import "./FadeInRigth.css"
 
-function LineToRight() {
+function FadeInRigth({children}) {
     const [isVisible, setIsVisible] = useState(false);
   
     useEffect(() => {
@@ -30,11 +30,9 @@ function LineToRight() {
     const ref = useRef(null);
   
     return (
-      <>
-      <div ref={ref} className={`line ${isVisible ? 'line--animate' : ''}`}>
-        {/* Contenido de la línea */}
+      <div ref={ref} className={`Rfade-in ${isVisible ? 'Rvisible' : ''}`}>
+        {children}
       </div>
-      </>
     );
   }
-  export {LineToRight}
+  export {FadeInRigth}

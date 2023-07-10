@@ -1,7 +1,6 @@
 .first-slide{
     display: flex;
     flex-wrap: wrap;
-
 }
 .first-slide .words{
     margin: 0;

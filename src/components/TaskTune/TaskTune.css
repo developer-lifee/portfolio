@@ -1,0 +1,54 @@
+/* TaskTune */
+.task-tune{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buttonTry{
+    height: 3.5rem;
+    width: 8rem;
+    background-color:#00000000;
+    color: #777;
+    border: 2px solid #777;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.buttonTry:hover{
+    cursor: pointer;
+    background-color: #5298F2;
+    color: #111;
+    border-color: #5298F2;
+}
+
+.tlist{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tlist span{
+    color: #ccc;
+    font-size: 2rem;
+}
+.tlist li{
+    margin: 0 2rem;
+}
+.description img{
+    width: 26rem;
+}
+.description .text{
+    font-size: 2rem;
+    max-width: 25rem;
+}
+.task-tune .description{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}

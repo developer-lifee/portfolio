@@ -30,9 +30,12 @@ function LineToLeft() {
     const ref = useRef(null);
   
     return (
-      <div ref={ref} className={`lineL ${isVisible ? 'line--animateL' : ''}`}>
-        {/* Contenido de la línea */}
-      </div>
+      <>
+        <div ref={ref} className={`lineL ${isVisible ? 'line--animateL' : ''}`}>
+          {/* Contenido de la línea */}
+        </div>
+        <div className='space'></div>
+      </>
     );
   }
   export {LineToLeft}

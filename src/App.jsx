@@ -8,6 +8,10 @@ import { FadeInUp } from './components/FadeInUp/FadeInUp.jsx'
 import { AboutMeSlide } from './components/AboutMeSlide/AboutMeSlide.jsx'
 import { LineToRight } from './components/LineToRight/LineToRight.jsx'
 import { LineToLeft } from './components/LineToLeft/LineToLeft.jsx'
+import { FadeInLeft } from './components/FadeInLeft/FadeInLeft.jsx'
+import { FadeInRigth } from './components/FadeInRigth/FadeInRigth.jsx'
+import { TaskTune } from './components/TaskTune/TaskTune.jsx'
+
 
 function App() {
 
@@ -20,7 +24,8 @@ function App() {
         <LineToRight/>
         <AboutMeSlide/>
         <LineToLeft/>
-        <AboutMeSlide/>
+        <TaskTune/>
+        <LineToRight/>
       </div>
     </>
   )

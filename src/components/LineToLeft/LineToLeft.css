@@ -13,3 +13,6 @@
   .line--animateL {
     width: calc(100vw - 2rem);
   }
+.space{
+  height: 4.2rem;
+}
