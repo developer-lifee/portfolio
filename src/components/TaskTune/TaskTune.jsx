@@ -12,16 +12,21 @@ function TaskTune() {
         <FadeInLeft>
         <ul className='tlist'>
           <li>
-            <span>
-              Featured Projects
-            </span>
+            <span> Task<br/> Tune</span>
           </li>
           <li>
-            <span> Task Tune</span>
+            <span id='featuredProjects'>
+              Featured<br/> Projects
+            </span>
           </li>
         </ul>
         </FadeInLeft>
         <div className='description'>
+        <FadeInLeft>
+          <div>
+            <img src="./taskTune.png" alt="" className='taskTuneImg'/>
+          </div>
+          </FadeInLeft>  
         <FadeInLeft>
           <div>
             <div className='text'>
@@ -29,11 +34,6 @@ function TaskTune() {
             </div>
             <a href="https://tasktune.netlify.app/" target="_blank"><button className='buttonTry'>Try it</button></a>
           
-          </div>
-          </FadeInLeft>
-          <FadeInLeft>
-          <div>
-            <img src="./taskTune.png" alt="" className='taskTuneImg'/>
           </div>
           </FadeInLeft>
         </div>

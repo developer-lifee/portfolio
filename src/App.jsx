@@ -11,6 +11,7 @@ import { LineToLeft } from './components/LineToLeft/LineToLeft.jsx'
 import { FadeInLeft } from './components/FadeInLeft/FadeInLeft.jsx'
 import { FadeInRigth } from './components/FadeInRigth/FadeInRigth.jsx'
 import { TaskTune } from './components/TaskTune/TaskTune.jsx'
+import { CatSoul } from './components/CatSoul/CatSoul.jsx'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <LineToLeft/>
         <TaskTune/>
         <LineToRight/>
+        <CatSoul/>
       </div>
     </>
   )

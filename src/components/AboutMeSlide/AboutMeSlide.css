@@ -6,15 +6,17 @@
 }
 
 .title{
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     color: #aaa;
     margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 .aboutMeSlide .bio{
     font-size: 2rem;
     width: 25rem;
+    margin-bottom: 2rem;
 }
 
 

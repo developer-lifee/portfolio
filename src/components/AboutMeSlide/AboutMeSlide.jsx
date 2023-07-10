@@ -11,10 +11,10 @@ function AboutMeSlide() {
         </FadeInOnScroll>
         <FadeInOnScroll>
             <div className='aboutMeSlide'>            
+                    <span className='bio'>I'm a developer based in Guadalajara, Mexico focused on creating interactive digital experiences on the web, as well as creating indie video games in my spare time.</span>
                     <div className='retrato'>
                         <img src="./Retrato.png" alt="Gerson Armando Lopez Duran Retrato" />
                     </div>
-                    <span className='bio'>I'm a developer based in Guadalajara, Mexico focused on creating interactive digital experiences on the web, as well as creating indie video games in my spare time.</span>
             </div>
         </FadeInOnScroll>
     </>
