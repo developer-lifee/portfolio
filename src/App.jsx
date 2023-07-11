@@ -9,9 +9,9 @@ import { AboutMeSlide } from './components/AboutMeSlide/AboutMeSlide.jsx'
 import { LineToRight } from './components/LineToRight/LineToRight.jsx'
 import { LineToLeft } from './components/LineToLeft/LineToLeft.jsx'
 import { FadeInLeft } from './components/FadeInLeft/FadeInLeft.jsx'
-import { FadeInRigth } from './components/FadeInRigth/FadeInRigth.jsx'
 import { TaskTune } from './components/TaskTune/TaskTune.jsx'
 import { CatSoul } from './components/CatSoul/CatSoul.jsx'
+import { Contact } from './components/Contact/Contact.jsx'
 
 
 function App() {
@@ -25,10 +25,16 @@ function App() {
         <LineToRight/>
         <AboutMeSlide/>
         <LineToLeft/>
-        <CatSoul/>
-        
+        <FadeInOnScroll>
+          <p id='featuredProjects'>Featured Projects</p>
+        </FadeInOnScroll>
         <LineToRight/>
+        <CatSoul/>
+        <LineToLeft/>
         <TaskTune/>
+        <LineToRight/>
+        <Contact/>
+        <LineToLeft/>
       </div>
     </>
   )

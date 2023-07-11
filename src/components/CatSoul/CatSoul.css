@@ -15,9 +15,9 @@
 }
 .catSoul .buttonTry:hover{
     cursor: pointer;
-    background-color: #1ed760;
+    background-color: #D9D6AD;
     color: #111;
-    border-color: #1ed760;
+    border-color: #D9D6AD;
 }
 
 .catSoul .tlist{
@@ -41,7 +41,7 @@
 }
 
 .catSoul .description img{
-    height: 40rem;
+    height: 30rem;
     margin-bottom: 2rem;
 }
 .catSoul .description .text{
@@ -55,4 +55,5 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 2rem;
 }

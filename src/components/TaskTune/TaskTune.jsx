@@ -12,11 +12,11 @@ function TaskTune() {
         <FadeInLeft>
         <ul className='tlist'>
           <li>
-            <span> Task<br/> Tune</span>
+            <span></span>
           </li>
           <li>
-            <span id='featuredProjects'>
-              Featured<br/> Projects
+            <span>
+              Task Tune
             </span>
           </li>
         </ul>

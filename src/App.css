@@ -2,3 +2,10 @@
     display: "flex";
     flex-direction: column;
 }
+#featuredProjects{
+    font-weight: 50;
+    color: #777;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+}

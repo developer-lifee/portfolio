@@ -52,6 +52,6 @@ body{
   background-color: #111;
   color: #777;
   font-weight: bolder;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
   overflow-x: hidden;
 }
