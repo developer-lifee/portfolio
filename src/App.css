@@ -9,3 +9,6 @@
     text-align: center;
     width: 100%;
 }
+html::-webkit-scrollbar {
+    width: 0px; /* Ancho de la barra de desplazamiento */
+}
