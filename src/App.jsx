@@ -12,6 +12,7 @@ import { FadeInLeft } from './components/FadeInLeft/FadeInLeft.jsx'
 import { TaskTune } from './components/TaskTune/TaskTune.jsx'
 import { CatSoul } from './components/CatSoul/CatSoul.jsx'
 import { Contact } from './components/Contact/Contact.jsx'
+import { Talk } from './components/Talk/Talk.jsx'
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
         <LineToRight/>
         <Contact/>
         <LineToLeft/>
+        <Talk/>
+        <LineToRight/>
       </div>
     </>
   )
