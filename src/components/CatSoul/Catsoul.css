@@ -1,10 +1,10 @@
-/* TaskTune */
-.task-tune{
+/* CatSoul */
+.catSoul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.buttonTry{
+.catSoul .buttonTry{
     height: 3.5rem;
     width: 8rem;
     background-color:#00000000;
@@ -13,14 +13,14 @@
     border-radius: 20px;
     transition: 0.2s;
 }
-.buttonTry:hover{
+.catSoul .buttonTry:hover{
     cursor: pointer;
     background-color: #1ed760;
     color: #111;
     border-color: #1ed760;
 }
 
-.tlist{
+.catSoul .tlist{
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -30,25 +30,25 @@
     justify-content: space-around;
     align-items: center;
 }
-.tlist span{
+.catSoul .tlist span{
     color: #aaa;
     font-size: 2rem;
 }
 
-#blackSpace{
+.catSoul #blackSpace{
     font-weight: 50;
     color: #111;
 }
 
-.description img{
+.catSoul .description img{
     height: 40rem;
     margin-bottom: 2rem;
 }
-.description .text{
+.catSoul .description .text{
     font-size: 2rem;
     max-width: 25rem;
 }
-.task-tune .description{
+.catSoul  .description{
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;

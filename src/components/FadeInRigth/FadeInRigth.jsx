@@ -13,7 +13,7 @@ function FadeInRigth({children}) {
         const elementHeight = ReactDOM.findDOMNode(ref.current).offsetHeight;
   
         // Calcula si el elemento está visible en la ventana
-        if (scrollTop > elementOffset - windowHeight + elementHeight / 4) {
+        if (scrollTop > elementOffset - windowHeight + elementHeight / 2) {
           setIsVisible(true);
         }
       };

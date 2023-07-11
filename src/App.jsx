@@ -25,9 +25,10 @@ function App() {
         <LineToRight/>
         <AboutMeSlide/>
         <LineToLeft/>
-        <TaskTune/>
-        <LineToRight/>
         <CatSoul/>
+        
+        <LineToRight/>
+        <TaskTune/>
       </div>
     </>
   )

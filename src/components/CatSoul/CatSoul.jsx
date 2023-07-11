@@ -6,8 +6,8 @@ function CatSoul() {
 
   return (
     <>
-      <div className='task-tune'>
-        
+      <div className='catSoul'>
+        <FadeInRigth>
         <ul className='tlist'>
           <li>
             <span id='blackSpace'> Cat<br/> Soul</span>
@@ -18,14 +18,14 @@ function CatSoul() {
             </span>
           </li>
         </ul>
-        
+        </FadeInRigth>
         <div className='description'>
-        
+        <FadeInRigth>
           <div>
             <img src="./catSoul.gif" alt="" className='taskTuneImg'/>
           </div>
-          
-        
+        </FadeInRigth>  
+        <FadeInRigth>
           <div>
             <div className='text'>
               <span>Cat soul is a platform game that is being developed with GameMaker 2.
@@ -35,7 +35,7 @@ The release date for Nintento Switch and PC will be confirmed in the near future
             <a href="" target="_blank"><button className='buttonTry'>See more</button></a>
           
           </div>
-          
+          </FadeInRigth>  
         </div>
       </div>
     </>
