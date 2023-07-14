@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#email{
+    font-size: 2rem;
+    text-align: center;
+    color: #aaa;
+
+}
+
+.footer .redes{
+    width: 100vw;
+}
+.footer .redes ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
+}
+.footer .redes ul li{
+    padding: 0 1rem;
+}
+
+.footer .redes ul li button{
+    height: 3.5rem;
+    width: 8rem;
+    background-color:#00000000;
+    color: #777;
+    border: 2px solid #777;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.footer .redes ul li button:hover{
+    cursor: pointer;
+    background-color: #1ed760;
+    color: #111;
+    border-color: #1ed760;
+}

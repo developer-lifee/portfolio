@@ -13,6 +13,7 @@ import { TaskTune } from './components/TaskTune/TaskTune.jsx'
 import { CatSoul } from './components/CatSoul/CatSoul.jsx'
 import { Contact } from './components/Contact/Contact.jsx'
 import { Talk } from './components/Talk/Talk.jsx'
+import { Footer } from './components/Footer/Footer.jsx'
 
 
 function App() {
@@ -21,23 +22,24 @@ function App() {
   return (
     <>
       <div className='main-container'>
-        <Header/>
-        <PresentacionSlide/>
+          <Header/>
+          <PresentacionSlide/>
         <LineToRight/>
-        <AboutMeSlide/>
+          <AboutMeSlide/>
         <LineToLeft/>
         <FadeInOnScroll>
           <p id='featuredProjects'>Featured Projects</p>
         </FadeInOnScroll>
         <LineToRight/>
-        <CatSoul/>
+          <CatSoul/>
         <LineToLeft/>
-        <TaskTune/>
+          <TaskTune/>
         <LineToRight/>
-        <Contact/>
+          <Contact/>
         <LineToLeft/>
-        <Talk/>
+          <Talk/>
         <LineToRight/>
+        <Footer/>
       </div>
     </>
   )
