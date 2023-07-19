@@ -32,7 +32,7 @@ function CatSoul() {
 An adventure that will explore the lives of three kitten brothers who share a sad past which they do not yet know.
 The release date for Nintento Switch and PC will be confirmed in the near future.<br/><br/></span>
             </div>
-            <a href="" target="_blank"><button className='buttonTry'>See more</button></a>
+            <a href="https://www.youtube.com/watch?v=-TBrfFGcDgY&t=5s" target="_blank"><button className='buttonTry'>See more</button></a>
           
           </div>
           </FadeInLeft>  
