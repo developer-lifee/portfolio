@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div className='main-container'>
-          <Header/>
+          {/* <Header/>
           <PresentacionSlide/>
         <LineToRight/>
           <AboutMeSlide/>
@@ -42,7 +42,7 @@ function App() {
         <LineToRight/>
           <Talk/>
         <LineToLeft/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </>
   )
