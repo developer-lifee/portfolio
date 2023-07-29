@@ -35,4 +35,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- Agrega las URL de las redes sociales -->
+  <url>
+    <loc>https://github.com/GersenX3</loc>
+    <lastmod>2023-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.linkedin.com/in/gersonarmandolopezduran/</loc>
+    <lastmod>2023-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
