@@ -14,6 +14,7 @@ import { CatSoul } from './components/CatSoul/CatSoul.jsx'
 import { Contact } from './components/Contact/Contact.jsx'
 import { Talk } from './components/Talk/Talk.jsx'
 import { Footer } from './components/Footer/Footer.jsx'
+import { Salvatore } from './components/Salvatore/Salvatore.jsx'
 
 
 function App() {
@@ -31,14 +32,16 @@ function App() {
           <p id='featuredProjects'>Featured Projects</p>
         </FadeInOnScroll>
         <LineToRight/>
+          <Salvatore/>
+        <LineToLeft/>
           <CatSoul/>
-        <LineToLeft/>
+        <LineToRight/>
           <TaskTune/>
-        <LineToRight/>
-          <Contact/>
         <LineToLeft/>
-          <Talk/>
+          <Contact/>
         <LineToRight/>
+          <Talk/>
+        <LineToLeft/>
         <Footer/>
       </div>
     </>

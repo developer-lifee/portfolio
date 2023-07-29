@@ -1,10 +1,10 @@
-/* TaskTune */
-.task-tune {
+/* renombrado */
+.salvatore {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.task-tune .buttonTry{
+.salvatore .buttonTry{
     height: 3.5rem;
     width: 8rem;
     background-color:#00000000;
@@ -13,14 +13,14 @@
     border-radius: 20px;
     transition: 0.2s;
 }
-.task-tune .buttonTry:hover{
+.salvatore .buttonTry:hover{
     cursor: pointer;
-    background-color: #1ed760;
+    background-color: #6D33A6;
     color: #111;
-    border-color: #1ed760;
+    border-color: #6D33A6;
 }
 
-.task-tune .tlist{
+.salvatore .tlist{
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -29,30 +29,31 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
-.task-tune .tlist span{
+.salvatore .tlist span{
     color: #aaa;
     font-size: 2rem;
-
 }
 
+.salvatore #blackSpace{
+    font-weight: 50;
+    color: #111;
+}
 
-
-.task-tune .description img{
-    height: 40rem;
-    margin: 0 5rem;
+.salvatore .description img{
+    height: 35rem;
     margin-bottom: 2rem;
 }
-.task-tune .description .text{
+.salvatore .description .text{
     font-size: 2rem;
     max-width: 25rem;
 }
-.task-tune .description{
+.salvatore  .description{
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 2rem;
 }

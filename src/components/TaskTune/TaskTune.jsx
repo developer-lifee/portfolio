@@ -8,7 +8,7 @@ function TaskTune() {
 
   return (
     <>
-      <div className='task-tune'>
+      <div className='task-tune' id='task-tune'>
         <FadeInLeft>
         <ul className='tlist'>
           <li>

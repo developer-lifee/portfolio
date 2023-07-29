@@ -7,7 +7,7 @@ function AboutMeSlide() {
   return (
     <>
         <FadeInOnScroll>
-            <div className='title'><span>About me</span></div>
+            <div className='title' id='about-me'><span>About me</span></div>
         </FadeInOnScroll>
         <FadeInOnScroll>
             <div className='aboutMeSlide'>            
