@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://salvatoretatuador.netlify.app/sitemap.xml
+Sitemap: https://gersonlopez.netlify.app//sitemap.xml
