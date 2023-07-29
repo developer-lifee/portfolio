@@ -23,8 +23,8 @@ function App() {
   return (
     <>
       <div className='main-container'>
-          {/* <Header/> */}
-          <PresentacionSlide/>
+          {/* <Header/>
+          <PresentacionSlide/> */}
         <LineToRight/>
           <AboutMeSlide/>
         <LineToLeft/>
