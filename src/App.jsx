@@ -24,7 +24,7 @@ function App() {
     <>
       <div className='main-container'>
           {/* <Header/>
-          <PresentacionSlide/> */}
+          <PresentacionSlide/>
         <LineToRight/>
           <AboutMeSlide/>
         <LineToLeft/>
@@ -42,7 +42,7 @@ function App() {
         <LineToRight/>
           <Talk/>
         <LineToLeft/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </>
   )
