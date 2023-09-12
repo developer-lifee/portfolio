@@ -42,6 +42,11 @@ function PresentacionSlide() {
         </FadeInUp>
     </div>
     <FadeInUp time={1800}>
+      <div id='contract'>
+        <a href="https://wa.me/qr/3PZEXTUCTWFNL1"  target="_blank">
+          <button>Contract Me</button>
+        </a>
+      </div>
     <div className="arrow">
         <span></span>
         <span></span>

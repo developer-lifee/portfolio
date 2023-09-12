@@ -16,6 +16,31 @@
     width: 7rem;
     background-color: #777;
 }
+
+#contract{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#contract button{
+    height: 3.5rem;
+    width: 10rem;
+    background-color:#5298F2;
+    color: #111;
+    border: 2px solid #5298F2;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+#contract button:hover{
+    cursor: pointer;
+    background-color: #00000000;
+    color: #777;
+    border-color: #7777;
+}
+
+
 .first-slide .letter:hover{
     color: #999;
 }
